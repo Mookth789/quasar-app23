@@ -15,7 +15,7 @@
 export default {
 
   setup () {
-    const myVVar = ref('Some Message')
+    const myVVar = ('Some Message')
 
     return {
       myVar
