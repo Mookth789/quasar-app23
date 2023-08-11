@@ -2,6 +2,7 @@
 
 <q-page padding>
 <pre>{{ myVar }}</pre>
+<q-input v-model="myVar"></q-input>
 </q-page>
 
 </template>
