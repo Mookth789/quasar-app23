@@ -9,7 +9,8 @@
 </template>
 
 <script>
-// import { ref } frome 'vue'
+import { computed } frome '@vue/reactivity'
+import { ref, computed } frome 'vue'
 
 
 export default {
@@ -18,11 +19,12 @@ export default {
     const myVVar = ref('Some Message')
 
     const computedExample = computed(() => {
-      myVar.value
+      return myVar.value + 'more text'
     })
 
     return {
       myVar
+      
     }
   }
 }
