@@ -18,12 +18,7 @@ const routes = [
       {
         path: 'three', 
         component: () => import('pages/ThreePage.vue') 
-      },
-      {
-        path: 'four', 
-        component: () => import('pages/FourPage.vue') 
       }
-
     ],
   },
 
