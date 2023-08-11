@@ -6,7 +6,24 @@ const routes = [
       {
          path: '', 
          component: () => import('pages/IndexPage.vue') 
+      },
+      {
+        path: 'one', 
+        component: () => import('pages/OnePage.vue') 
+      },
+      {
+        path: 'two', 
+        component: () => import('pages/TwoPage.vue') 
+      },
+      {
+        path: 'three', 
+        component: () => import('pages/ThreePage.vue') 
+      },
+      {
+        path: 'four', 
+        component: () => import('pages/FourPage.vue') 
       }
+
     ],
   },
 
