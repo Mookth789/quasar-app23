@@ -7,16 +7,16 @@
 </template>
 
 <script>
-import { ref } frome 'vue'
+// import { ref } frome 'vue'
 
 
 export default {
-  data() {
-     return{
-       myVar: 'SomeMessage'
+  // data() {
+  //    return{
+  //      myVar: 'SomeMessage'
 
-     }
-   },
+  //    }
+  //  },
   setup () {
     const myVVar = ref('Some Message')
 
