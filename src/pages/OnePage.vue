@@ -15,7 +15,11 @@
 export default {
 
   setup () {
-    const myVVar = ('Some Message')
+    const myVVar = ref('Some Message')
+
+    const computedExample = computed(() => {
+      myVar.value
+    })
 
     return {
       myVar
