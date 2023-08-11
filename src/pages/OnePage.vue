@@ -8,7 +8,7 @@
 </template>
 
 <script>
-// import { ref } frome 'vue'
+import { ref } frome 'vue'
 
 
 export default {
