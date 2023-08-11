@@ -1,14 +1,30 @@
 <template>
 
 <q-page padding>
-One Page
+<pre>{{ myVar }}</pre>
 </q-page>
 
 </template>
 
 <script>
+import { ref } frome 'vue'
+
+
 export default {
-  //name: 'PageName',
+  // data() {
+  //   return{
+  //     myVar: 'SomeMessage'
+
+  //   }
+  // },
+  setup () {
+    const myVVar = ref('Some Message')
+
+    return {
+      myVar
+    }
+
+  }
 }
 
 </script>
