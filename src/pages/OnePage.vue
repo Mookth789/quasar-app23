@@ -2,13 +2,14 @@
 
 <q-page padding>
 <pre>{{ myVar }}</pre>
-<q-input v-model="myVar"></q-input>
-</q-page>
+  <q-input v-model="myVar">
+  </q-input>
 
+</q-page>
 </template>
 
 <script>
-import { ref } frome 'vue'
+// import { ref } frome 'vue'
 
 
 export default {
